@@ -1,0 +1,8 @@
+{
+  "name": "@papershift/tsconfig",
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.18.5",
+    "@vue/tsconfig": "^0.4.0"
+  }
+}

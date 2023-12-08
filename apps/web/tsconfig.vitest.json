@@ -1,0 +1,12 @@
+{
+  "extends": "@papershift/tsconfig/web-vitest.json",
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": ["vitest/globals", "node", "jsdom"]
+  }
+}

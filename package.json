@@ -1,0 +1,30 @@
+{
+  "name": "@papershift",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "type-check": "turbo run type-check",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "pct": "turbo run pct",
+    "scaffold": "pnpm --filter @papershift/scaffold plop",
+    "test-watch": "FORCE_COLOR=1 turbo run test-watch",
+    "e2e": "FORCE_COLOR=1 turbo run e2e",
+    "format": "prettier --write \"**/*.{ts,tsx,vue,md}\""
+  },
+  "devDependencies": {
+    "@papershift/eslint-config-custom": "workspace:*",
+    "prettier": "^3.0.3",
+    "turbo": "^1.10.15"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@8.6"
+}

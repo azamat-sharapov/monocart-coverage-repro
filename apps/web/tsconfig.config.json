@@ -1,0 +1,7 @@
+{
+  "extends": "@papershift/tsconfig/node.json",
+  "include": ["vite.config.*", "vitest.config.*"],
+  "compilerOptions": {
+    "composite": true
+  }
+}
