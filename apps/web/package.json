@@ -24,7 +24,7 @@
     "@vueuse/core": "^10.5.0",
     "@vueuse/integrations": "^10.5.0",
     "lodash": "^4.17.21",
-    "monocart-reporter": "^1.7.13",
+    "monocart-reporter": "^2.1.1",
     "pinia": "^2.1.7",
     "pinia-plugin-persistedstate": "^3.2.0",
     "sortablejs": "^1.15.0",
